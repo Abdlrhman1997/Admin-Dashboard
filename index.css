@@ -20,10 +20,12 @@ body{
 }
 
 #sideBar{
+    
     background-color: #0ea5e9;
     grid-column: 1;
     grid-row: 1/7;
     padding: 1em;
+    
 }
 
 p{
@@ -31,10 +33,17 @@ p{
     color: #ecfdf5;
 }
 
+
+
 #dashBoard{
     display: flex;
     align-items: center;
     gap: .5em;
+    
+}
+
+#home{
+    margin-top: 3em;
 }
 
 #dashBoard img{
@@ -43,4 +52,29 @@ p{
 }
 #dashBoard p{
      font-size: 1.5em;
+}
+
+#logos-container div{
+    display: flex;
+}
+
+#logos-container img{
+    height: 1.2em;
+    width: 1.2em;
+}
+
+#logos-container div{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+#logos-container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ecfdf5;
+}
+
+#logos-container a:hover{
+    text-decoration:underline;
 }
