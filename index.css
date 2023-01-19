@@ -54,8 +54,15 @@ p{
      font-size: 1.5em;
 }
 
+#logos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 #logos-container div{
     display: flex;
+    
 }
 
 #logos-container img{
@@ -66,7 +73,7 @@ p{
 #logos-container div{
     display: flex;
     align-items: center;
-    gap: .5em;
+    gap: 1em;
 }
 
 #logos-container a{
