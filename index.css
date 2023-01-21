@@ -16,7 +16,7 @@ body{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(6,calc(100% /6));
-    grid-template-rows: repeat(7,calc(100% /7));
+    grid-template-rows: repeat(8,calc(100% /8));
 }
 
 p{
@@ -147,4 +147,18 @@ input[type="search"]{
     border-radius: 25px;
     height: 3em;
     width: 3em;
+}
+
+#second-row{
+    display: flex;
+}
+#profile-second-row{
+    margin-top: 1.5em;
+    
+}
+
+#profile-second-row img{
+    border-radius: 40px;
+    height: 4.5em;
+    width: 4.5em;
 }
