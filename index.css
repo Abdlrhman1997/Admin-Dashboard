@@ -21,7 +21,7 @@ body{
 
 p{
     font-weight: bold;
-    color: #ecfdf5;
+    color: #03130b;
 }
 
 a{
@@ -62,6 +62,8 @@ a{
 }
 #dashBoard p{
      font-size: 1.5em;
+     font-weight: bold;
+    color: #ecfdf5;
 }
 
 #logos-container{
@@ -154,6 +156,9 @@ input[type="search"]{
 }
 #profile-second-row{
     margin-top: 1.5em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
     
 }
 
@@ -161,4 +166,8 @@ input[type="search"]{
     border-radius: 40px;
     height: 4.5em;
     width: 4.5em;
+}
+
+.small-p{
+    font-size: .8em;
 }
