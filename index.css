@@ -94,6 +94,27 @@ p{
     background-color:azure;
     grid-column: 2/8;
     grid-row: 1/3;
-    border: 3px solid darkblue;
-    padding: 1em;
+    /* border: 3px solid darkblue; */
+    padding: 2em;
+    box-shadow: 0 8px 6px -6px rgb(187, 186, 186);
+}
+
+#first-row{
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"]{
+   border: 0px;
+    background-color: #e5e7eb;
+    width: 85%;
+    height: 1.7em;
+    border-radius: 25px;
+    
+}
+
+#first-row div{
+    display: flex;
+    align-items: center;
+    width:50% ;
 }
