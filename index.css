@@ -191,3 +191,17 @@ input[type="search"]{
 #three-buttons button:hover{
     cursor:pointer;
 }
+
+/*Styling navBar Ending*/
+/************************************************/
+
+/*Start Styling grid-container*/
+
+#grid-container{
+    background-color: #e6e6e6;
+    grid-column: 2/8;
+    grid-row:3/12 ;
+    display: grid;
+    /* grid-template-columns: ;
+    grid-template-rows: ; */
+}
