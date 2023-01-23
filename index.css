@@ -213,6 +213,7 @@ input[type="search"]{
     display: flex;
     flex-direction: column;
     /* background-color: #fbfcff; */
+    background-color:rgb(234, 235, 235);
     
     box-shadow: 3px 3px rgb(187, 186, 186);
     border-left: 7px solid orange;
@@ -274,3 +275,22 @@ input[type="search"]{
     grid-column:3/5;
     grid-row:5/7;
 }
+
+#about{
+    grid-column:5/7;
+    grid-row:1/4;
+    border-left: none;
+}
+
+#about div{
+    width: 80%;
+    border-bottom:1px solid rgb(95, 149, 248) ;
+    margin-top: .8em;
+    margin-bottom: .8em;
+}
+
+.p-final-card{
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
